@@ -1,0 +1,62 @@
+[
+    {
+        "title":"News Title 01",
+        "image": "https://wallpaperaccess.com/full/327386.jpg",
+        "user": {
+            "email": "mertct111@gmail.com",
+            "username": "Mert Can Taş",
+            "image": "https://www.3asdizayn.com.tr/wp-content/uploads/2020/11/png-clipart-computer-icons-user-profile-avatar-heroes-silhouette.png"
+        },
+        "description": "Fake news has become an important topic of research in a variety of disciplines including linguistics and computer science."
+    },
+    {
+        "title":"News Title 02",
+        "image": "https://cdn.vox-cdn.com/thumbor/ij3w3ZbVR5-vqsDk9W4_wZCbLrI=/cdn.vox-cdn.com/uploads/chorus_asset/file/3847972/11379249_1467686426858468_402561493_n.0.jpg",
+        "user": {
+            "email": "mertct211@gmail.com",
+            "username": "Mehmet Kural",
+            "image": "https://lh3.googleusercontent.com/proxy/-ScAFaJt28hJksu8GoIGUOsw7mzAKg-948epYb8T1UCtF4-vEeNHc_-B4HZZXG_3eISRaYmvDkPVGpiIm9cx2WSevOISBsSUCN6JnF7_Jiu0mPIbYgT6zf2t5Oeu"
+        },
+        "description": "In this paper, we explain how the problem is approached from the perspective of natural language processing, with the goal of building a system to automatically detect misinformation in news. "
+    },
+    {
+        "image": "https://wallpaperaccess.com/full/950836.jpg",
+        "title":"News Title 03",
+        "user": {
+            "email": "mertct311@gmail.com",
+            "username": "Ahmet Vural",
+            "image": "https://www.pngkit.com/png/detail/391-3919484_bayan-retmen-profil-kafa-kadn-female-user-icon.png"
+        },
+        "description": "main challenge in this line of research is collecting quality data, i.e., instances of fake and real news articles on a balanced distribution of topics."
+    },
+    {
+        "title":"News Title 01",
+        "image": "https://wallpaperaccess.com/full/327386.jpg",
+        "user": {
+            "email": "mertct111@gmail.com",
+            "username": "Mert Can Taş",
+            "image": "https://www.3asdizayn.com.tr/wp-content/uploads/2020/11/png-clipart-computer-icons-user-profile-avatar-heroes-silhouette.png"
+        },
+        "description": "We review available datasets and introduce the MisInfoText repository as a contribution of our lab to the community. We make available the full text of the news articles, together with veracity labels previously assigned based "
+    },
+    {
+        "title":"News Title 02",
+        "image": "https://cdn.vox-cdn.com/thumbor/ij3w3ZbVR5-vqsDk9W4_wZCbLrI=/cdn.vox-cdn.com/uploads/chorus_asset/file/3847972/11379249_1467686426858468_402561493_n.0.jpg",
+        "user": {
+            "email": "mertct211@gmail.com",
+            "username": "Mehmet Kural",
+            "image": "https://lh3.googleusercontent.com/proxy/-ScAFaJt28hJksu8GoIGUOsw7mzAKg-948epYb8T1UCtF4-vEeNHc_-B4HZZXG_3eISRaYmvDkPVGpiIm9cx2WSevOISBsSUCN6JnF7_Jiu0mPIbYgT6zf2t5Oeu"
+        },
+        "description": "We also perform a topic modelling experiment to elaborate on the gaps and sources of imbalance in currently available datasets to guide future efforts."
+    },
+    {
+        "image": "https://wallpaperaccess.com/full/950836.jpg",
+        "title":"News Title 03",
+        "user": {
+            "email": "mertct311@gmail.com",
+            "username": "Ahmet Vural",
+            "image": "https://www.pngkit.com/png/detail/391-3919484_bayan-retmen-profil-kafa-kadn-female-user-icon.png"
+        },
+        "description": "We appeal to the community to collect more data and to make it available for research purposes"
+    }
+]
