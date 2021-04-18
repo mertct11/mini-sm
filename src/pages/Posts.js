@@ -27,7 +27,7 @@ class Posts extends React.Component {
       <StyledPosts>
         {this.props.posts && this.props.posts.map((item, key) => {
           return (
-            <Card className="card-container" >
+            <Card key={key}className="card-container" >
               {key % 2 == 0 && <img className="img-container" src={item.image} />}
               <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">

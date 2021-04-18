@@ -24,7 +24,7 @@ class Users extends React.Component {
         <Grid container    >
           {this.props.users && this.props.users.map((item, key) => {
             return (
-              <Grid item xs={4}   >
+              <Grid  key={key} item xs={4}   >
                 <Card className="card-container"  >
                   <img className="img-container" src={item.image} />
                   <CardContent>

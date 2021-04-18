@@ -13,15 +13,13 @@ class Menu extends React.Component {
 
     constructor(props) {
         super(props)
-        this.state = {
-            isChoosen: null,
+        this.state = { 
         }
     }
 
 
     handleClick=(menuType)=>{ 
-        this.props.setMenuType(menuType)
-
+        this.props.setMenuType(menuType) 
     }
 
     render() {

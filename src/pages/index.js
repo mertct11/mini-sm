@@ -11,7 +11,7 @@ import { addDummyUsers, setMenuType } from '../redux/Actions';
 import { connect } from 'react-redux';
 import DummyUsers from '../data/users.json'
 
- 
+
 import LoginPage from './Login';
 import PostsPage from './Posts';
 import UsersPage from './Users';
@@ -34,11 +34,14 @@ class Main extends React.Component {
             <Grid item xs={3} className="left-frame">
               <LeftBoard />
             </Grid>
-            <Grid item xs={9} className="right-frame" >
-            <RightBoard />
-            {this.props.menuType=='Login' && <LoginPage />}
-            {this.props.menuType=='Users' && <UsersPage />}
-            {this.props.menuType=='Posts' && <PostsPage />}
+            <Grid item xs={3} className="spacer">
+              <div>asd</div>
+            </Grid>
+            <Grid item xs={9} className="right-frame"  >
+              <RightBoard />
+              {this.props.menuType == 'Login' && <LoginPage />}
+              {this.props.menuType == 'Users' && <UsersPage />}
+              {this.props.menuType == 'Posts' && <PostsPage />}
             </Grid>
           </Grid>
         </StyledMain>
@@ -57,12 +60,20 @@ min-height:100vh;
   flex-direction:column;
 
 }
+
+.left-frame{
+  position:fixed;
+}
+
+.spacer{ 
+  width:100%; 
+}
 `;
 
 
 
 const mapStateToProps = (state) => {
-  return { 
+  return {
     users: state.login.users,
     menuType: state.menu.menuType,
   }

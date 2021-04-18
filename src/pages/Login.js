@@ -69,7 +69,7 @@ class Login extends React.Component {
                                 Login
           </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                If you know an email and password from dummy data, you can login.
+                                If you know  email and password from dummy data, you can login.
           </Typography>
                             <MCTextInput type={"email"} onChangeText={this.onChangeTextEmail} locked={false} label={"E-mail"} active={false} />
                             <MCTextInput type={"password"} onChangeText={this.onChangeTextPass} locked={false} label={"Password"} active={false} />
