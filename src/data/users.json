@@ -1,44 +1,14 @@
 [
-    {
-      "email":"mertct111@gmail.com",
-      "username": "Mert Can Taş",
-      "password": "admin01",
-      "image": "https://www.3asdizayn.com.tr/wp-content/uploads/2020/11/png-clipart-computer-icons-user-profile-avatar-heroes-silhouette.png"
-    
-    },
-    {
-      "email":"mertct211@gmail.com",
-      "username": "Mehmet Kural",
-      "password": "admin02",
-      "image": "https://www.pngkit.com/png/detail/391-3919484_bayan-retmen-profil-kafa-kadn-female-user-icon.png"
-    
-    },
-    {
-      "email":"mertct311@gmail.com",
-      "username": "Ahmet Vural",
-      "password": "admin03",
-      "image": "https://www.3asdizayn.com.tr/wp-content/uploads/2020/11/png-clipart-computer-icons-user-profile-avatar-heroes-silhouette.png"
+  {
+    "email":"admin@admin.com",
+    "username": "Zihni Kırıkkale",
+    "password": "Admin123!",
+    "image": "https://www.3asdizayn.com.tr/wp-content/uploads/2020/11/png-clipart-computer-icons-user-profile-avatar-heroes-silhouette.png"
+  },{
+    "email":"zihni@kırıkkale.com",
+    "username": "Zihni Kırıkkale2",
+    "password": "Admin123!",
+    "image": "https://www.3asdizayn.com.tr/wp-content/uploads/2020/11/png-clipart-computer-icons-user-profile-avatar-heroes-silhouette.png"
+  }
      
-    },
-    {
-      "email":"mertct411@gmail.com",
-      "username": "Veli Vural",
-      "password": "admin05",
-       "image": "https://www.3asdizayn.com.tr/wp-content/uploads/2020/11/png-clipart-computer-icons-user-profile-avatar-heroes-silhouette.png"
-     
-    },
-    {
-      "email":"mertct511@gmail.com",
-      "username": "Turan Güneş",
-      "password": "admin06",
-      "image": "https://lh3.googleusercontent.com/proxy/-ScAFaJt28hJksu8GoIGUOsw7mzAKg-948epYb8T1UCtF4-vEeNHc_-B4HZZXG_3eISRaYmvDkPVGpiIm9cx2WSevOISBsSUCN6JnF7_Jiu0mPIbYgT6zf2t5Oeu"
-     
-    },
-    {
-      "email":"mertct611@gmail.com",
-      "username": "Ümit Erdim",
-      "password": "admin07",
-      "image": "https://www.pngkit.com/png/detail/391-3919484_bayan-retmen-profil-kafa-kadn-female-user-icon.png"
-    
-    }
   ]

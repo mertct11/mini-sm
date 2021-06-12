@@ -13,13 +13,35 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 import { setPosts } from '../redux/Actions';
+
+
+import db from '../firebase.config';
+
+
 class Posts extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      posts: null,
+    };
+  }
 
+  fetchPosts = async () => {
+    const response = db.collection('posts');
+    const data = await response.get();
+    console.log({ response })
+    console.log({ data })
+    data.docs.forEach(item => {
+      console.log({ xxx: item.data() })
+    })
 
+    this.props.setPosts(data.docs)  
+
+  }
   componentDidMount() {
- 
-    this.props.setPosts(DummyPosts) // from fake APİ
- 
+
+    this.fetchPosts();
+
   }
 
   render() {
@@ -27,22 +49,22 @@ class Posts extends React.Component {
       <StyledPosts>
         {this.props.posts && this.props.posts.map((item, key) => {
           return (
-            <Card key={key}className="card-container" >
-              {key % 2 == 0 && <img className="img-container" src={item.image} />}
+            <Card key={key} className="card-container" >
+              {key % 2 == 0 && <img className="img-container" src={item.data().image} />}
               <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
-                  {item.title}
+                  {item.data().title}
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  {item.description}
+                  {item.data().description}
                 </Typography>
               </CardContent>
               <CardActions>
                 <Button size="small" color="primary">
                   Like It
-        </Button>
+                </Button>
               </CardActions>
-              {key % 2 == 1 && <img className="img-container" src={item.image} />}
+              {key % 2 == 1 && <img className="img-container" src={item.data().image} />}
 
             </Card>
           )
